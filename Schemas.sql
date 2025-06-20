@@ -23,12 +23,12 @@ create table books(
 
 drop table if exists orders;
 create table orders(
-  order id int primary key,
+  order_id int primary key,
   customer_id int ,
   book_id int ,
   order_date date,
   quantity int ,
-  total amount decimal(8,2),
+  total_amount decimal(8,2),
   foreign key (customer_id) references customers(customer_id),
   foreign key (book_id) references books(book_id)
     
