@@ -168,7 +168,7 @@ create table orders(
   select books.book_id,title,stock,sum(quantity) as sold ,stock - sum(quantity) as remaining_stock
   from books
   join orders on orders.book_id=books.book_id 
-  group by books.book_id 
+  group by books.book_id,books.stock,books.title
   order by books.book_id;
 ```
 **Objective :** To assess current inventory and prepare for replenishment based on past sales.
