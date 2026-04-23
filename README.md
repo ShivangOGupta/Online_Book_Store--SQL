@@ -81,7 +81,7 @@ create table orders(
   where total_amount > 20;
 ```
 **Objective :** To find high-value orders that contribute more significantly to revenue.
-### 5. Show all customers who ordered more than 1 quantity of a book
+### 5. Show all customers who ordered more than 1 time
 ```sql
   select name ,count(name) as Books 
   from customers 
