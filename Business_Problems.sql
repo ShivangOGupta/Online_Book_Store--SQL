@@ -4,7 +4,7 @@
 2. Find the book with the Lowest Stock 
 3. Calculate the total revenue generated from all orders
 4. Retrieve all orders where the total amount exceeds $20
-5. Show all customers who ordered more than 1 quantity of a book
+5. Show all customers who ordered more than 1 time
 6. Show orders placed in November 2023
 7. Retrieve the total number of books sold for each genre
 8. Find the average price of books in the "Fantasy" genre
